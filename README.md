@@ -21,7 +21,7 @@ bash install_tools.sh
 ```
 
 **Run Directly:**
-Once pushed to GitHub, you can run the installation in a single command without downloading the file first:
+You can run the installation in a single command without downloading the file first:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/SaltyCap/pi_scripts_sc/refs/heads/main/install_tools.sh | bash
 ```
