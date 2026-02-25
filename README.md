@@ -12,6 +12,7 @@ This script automates the installation of several essential developer tools:
 4. Node.js & NVM
 5. Gemini CLI
 6. Open Claw
+7. Antigravity
 
 **Usage:**
 
