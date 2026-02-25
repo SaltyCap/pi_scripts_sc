@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Exit immediately if a command exits with a non-zero status
-set -e
+# Removed set -e as it causes the script to stop if a single command fails (e.g. Tailscale setup)
 
 echo "🚀 Starting the ultimate tool installation..."
 
