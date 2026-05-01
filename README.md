@@ -20,6 +20,8 @@ To run the script locally without changing permissions:
 bash install_tools.sh
 ```
 
+Use the arrow keys or `j`/`k` to move through the installer menu, press the spacebar to select programs, then press Enter to install the selected programs.
+
 **Run Directly:**
 You can run the installation in a single command without downloading the file first:
 ```bash
