@@ -28,9 +28,3 @@ You can run the installation in a single command without downloading the file fi
 curl -fsSL https://raw.githubusercontent.com/SaltyCap/pi_scripts_sc/refs/heads/main/install_tools.sh | bash
 ```
 
-**Note:** You may need to provide your Tailscale auth key when prompted, or edit the script to include it directly.
-
-Docker Swarm is initialized automatically after Docker installs. By default, the script uses the Pi's Tailscale IPv4 address as the Swarm advertise address when available, then falls back to the first local network IP. To choose the advertise address yourself:
-```bash
-SWARM_ADVERTISE_ADDR=192.168.1.50 bash install_tools.sh
-```
